@@ -8,17 +8,13 @@ Abrir o terminal: **Ctrl + Alt + T**
 
 ---
 
-* __cat__
-
-   * Pega o conteúdo de um arquivo e exibe na tela.
+* __`cat`: Pega o conteúdo de um arquivo e exibe na tela.__
 
    E.: `cat /proc/cpuinfo`
 
 ---
 
-* __cd__
-
-   * Acessa um diretório.
+* __`cd`: Acessa um diretório.__
 
    Ex.:
    
@@ -35,15 +31,11 @@ Abrir o terminal: **Ctrl + Alt + T**
       `cd ~`: Acessa diretamente o diretório do usuário;
 ---
 
-* __clear__
-
-   * Limpa a tela.
+* __`clear`: Limpa a tela.__
 
 ---
 
-* __ls__
-
-   * Lista o conteúdo do diretório atual.
+* __`ls`: Lista o conteúdo do diretório atual.__
    
    * Argumentos comuns:
 
@@ -65,9 +57,7 @@ Abrir o terminal: **Ctrl + Alt + T**
 
 ---
 
-* __mkdir__
-
-   * Cria diretórios.
+* __`mkdir`: Cria diretórios.__
 
    Exs.:
    
@@ -77,6 +67,14 @@ Abrir o terminal: **Ctrl + Alt + T**
 
 ---
 
-* __pwd__
+* __`pwd`: Mostra o caminho absoluto (desde a raiz) do diretório atual.__
 
-   * Mostra o __caminho absoluto__ (desde a raiz) do diretório atual .
+---
+
+* __`rm`: Remove arquivos.__
+
+---
+
+* __`rmdir`: Remove diretórios.__
+
+---
