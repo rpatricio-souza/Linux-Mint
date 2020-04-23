@@ -61,6 +61,16 @@ Abrir o terminal: **Ctrl + Alt + T**
 
 ---
 
+* __mkdir__
+
+   * Cria diretórios.
+
+   Exs.: `mkdir Teste`
+
+      `mkdir /home/rpatricio-souza/Desktop/Teste`
+
+---
+
 * __pwd__
 
-   * Mostra o caminho do diretório atual desde a raiz.
+   * Mostra o __caminho absoluto__ (desde a raiz) do diretório atual .
