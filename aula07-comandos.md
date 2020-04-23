@@ -6,14 +6,17 @@ Abrir o terminal: **Ctrl + Alt + T**
 
 ---
 
-1. **ls**
+* __clear__
 
-   1. Descrição: Lista o conteúdo da pasta atual
+   * Limpa a tela
 
-   2. Sintaxe: `ls`
+* __ls__
 
-   3. Parâmetros comuns:
+   * Descrição: Lista o conteúdo da pasta atual
 
-      **-l**: Exibe as permissões de cada arquivo/diretório
+   * Parâmetros comuns:
+
+      __-l__: Exibe as permissões de cada arquivo/diretório
 
 ---
+
