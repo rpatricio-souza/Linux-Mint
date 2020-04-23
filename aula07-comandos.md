@@ -20,7 +20,8 @@ Abrir o terminal: **Ctrl + Alt + T**
 
    * Acessa um diretório.
 
-   Ex.: `cd /media/rpatricio-souza/Dados`
+   Ex.:
+   `cd /media/rpatricio-souza/Dados`
 
    * Argumentos comuns:
 
@@ -47,7 +48,8 @@ Abrir o terminal: **Ctrl + Alt + T**
 
       `ls /`: Exibe o conteúdo do diretório passado como argumento.
 
-    Ex.: `ls /media/rpatricio-souza/Dados`
+    Ex.:
+    `ls /media/rpatricio-souza/Dados`
 
    * Parâmetros comuns:
 
@@ -65,9 +67,10 @@ Abrir o terminal: **Ctrl + Alt + T**
 
    * Cria diretórios.
 
-   Exs.: `mkdir Teste`
+   Exs.:
+   `mkdir Teste`
 
-      `mkdir /home/rpatricio-souza/Desktop/Teste`
+   `mkdir /home/rpatricio-souza/Desktop/Teste`
 
 ---
 
