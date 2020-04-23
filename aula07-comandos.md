@@ -1,22 +1,66 @@
 # Comandos Linux
 
+__Os comandos no linux são externos, ou seja, são executáveis salvos em diretórios específicos no /bin
+
 ---
 
 Abrir o terminal: **Ctrl + Alt + T**
 
 ---
 
-* __clear__
+* __cat__
 
-   * Limpa a tela
+   * Pega o conteúdo de um arquivo e exibe na tela.
 
-* __ls__
-
-   * Descrição: Lista o conteúdo da pasta atual
-
-   * Parâmetros comuns:
-
-      __-l__: Exibe as permissões de cada arquivo/diretório
+   E.: `cat /proc/cpuinfo`
 
 ---
 
+* __cd__
+
+   * Acessa um diretório.
+
+   Ex.: `cd /media/rpatricio-souza/Dados`
+
+   * Argumentos comuns:
+
+      `cd /`: Retorna à raiz;
+
+      `cd .`: Aponta para o diretório local. Útil para ser usado com os comandos de cópia/movimentação;
+      
+      `cd ..`: Volta ao diretório acima;
+
+      `cd ~`: Acessa diretamente o diretório do usuário;
+---
+
+* __clear__
+
+   * Limpa a tela.
+
+---
+
+* __ls__
+
+   * Lista o conteúdo do diretório atual.
+   
+   * Argumentos comuns:
+
+      `ls /`: Exibe o conteúdo do diretório passado como argumento.
+
+    Ex.: `ls /media/rpatricio-souza/Dados`
+
+   * Parâmetros comuns:
+
+      `-all`: Exibe os arquivos ocultos;
+         _No linux, o nome dos arquivos ocultos começam com um ponto: ._
+
+      `-h`: _Human Readable_ melhora a legibilidade, mostrando o tamanho em KB/MB/GB...
+
+      `-l`: Exibe as permissões de cada arquivo/diretório.
+
+
+---
+
+* __pwd__
+
+   * Mostra o caminho do diretório atual desde a raiz.
