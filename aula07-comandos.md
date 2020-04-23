@@ -14,6 +14,6 @@ Abrir o terminal: **Ctrl + Alt + T**
 
    3. Listagens comuns:
 
-      1.**ls -l**: Exibe as permissões de cada arquivo/pasta
+      **ls -l**: Exibe as permissões de cada arquivo/pasta
 
 ---
