@@ -4,19 +4,19 @@ __Os comandos no linux são externos, ou seja, são executáveis salvos em diret
 
 ---
 
-Abrir o terminal: **Ctrl + Alt + T**
+* Abrir o terminal: **Ctrl + Alt + T**
 
 ---
 
 * __`cat`: Pega o conteúdo de um arquivo e exibe na tela.__
 
-   E.: `cat /proc/cpuinfo`
+   * Exemplos: `cat /proc/cpuinfo`
 
 ---
 
 * __`cd`: Acessa um diretório.__
 
-   Ex.:
+   * Exemplos:
    
    `cd /media/rpatricio-souza/Dados`
 
@@ -41,7 +41,7 @@ Abrir o terminal: **Ctrl + Alt + T**
 
       `ls /`: Exibe o conteúdo do diretório passado como argumento.
 
-    Ex.:
+   * Exemplos:
     
     `ls /media/rpatricio-souza/Dados`
 
@@ -59,7 +59,7 @@ Abrir o terminal: **Ctrl + Alt + T**
 
 * __`mkdir`: Cria diretórios.__
 
-   Exs.:
+   * Exemplos:
    
    `mkdir Teste`
 
@@ -76,5 +76,13 @@ Abrir o terminal: **Ctrl + Alt + T**
 ---
 
 * __`rmdir`: Remove diretórios.__
+
+---
+
+* __`touch`: Cria um arquivo em branco.__
+
+   * Exemplos:
+
+   `touch teste`
 
 ---
