@@ -1,6 +1,6 @@
 # Comandos Linux
 
-__Os comandos no linux são externos, ou seja, são executáveis salvos em diretórios específicos no /bin
+__Os comandos no linux são externos, ou seja, são executáveis salvos em diretórios específicos no /bin__
 
 ---
 
