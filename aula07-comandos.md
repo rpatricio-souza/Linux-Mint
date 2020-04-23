@@ -70,11 +70,17 @@ __Os comandos no linux são externos, ou seja, são executáveis salvos em diret
 
 * __`nano`: Editor de texto.__
 
-   _Caso o arquivo não exista, o comando nano cria o arquivo._
+   _Caso o arquivo não exista, o comando nano cria esse arquivo._
 
    * Exemplos:
 
       `nano teste.txt`
+
+   * Comandos comuns (O ^ indicado dentro do editor significa pressionar a tecla Ctrl):
+
+      __Ctrl + o__: Salvar as alterações
+      
+      __Ctrl + x__: Sair do editor;
 
 ---
 
