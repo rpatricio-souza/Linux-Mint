@@ -18,7 +18,7 @@ __Os comandos no linux são externos, ou seja, são executáveis salvos em diret
 
    * Exemplos:
    
-   `cd /media/rpatricio-souza/Dados`
+      `cd /media/rpatricio-souza/Dados`
 
    * Argumentos comuns:
 
@@ -43,11 +43,12 @@ __Os comandos no linux são externos, ou seja, são executáveis salvos em diret
 
    * Exemplos:
     
-    `ls /media/rpatricio-souza/Dados`
+       `ls /media/rpatricio-souza/Dados`
 
    * Parâmetros comuns:
 
       `-all`: Exibe os arquivos ocultos;
+         
          _No linux, o nome dos arquivos ocultos começam com um ponto: ._
 
       `-h`: _Human Readable_ melhora a legibilidade, mostrando o tamanho em KB/MB/GB...
@@ -61,9 +62,19 @@ __Os comandos no linux são externos, ou seja, são executáveis salvos em diret
 
    * Exemplos:
    
-   `mkdir Teste`
+      `mkdir Teste`
 
-   `mkdir /home/rpatricio-souza/Desktop/Teste`
+      `mkdir /home/rpatricio-souza/Desktop/Teste`
+
+---
+
+* __`nano`: Editor de texto.__
+
+   _Caso o arquivo não exista, o comando nano cria o arquivo._
+
+   * Exemplos:
+
+      `nano teste.txt`
 
 ---
 
@@ -83,6 +94,6 @@ __Os comandos no linux são externos, ou seja, são executáveis salvos em diret
 
    * Exemplos:
 
-   `touch teste`
+      `touch teste`
 
 ---
