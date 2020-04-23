@@ -12,8 +12,8 @@ Abrir o terminal: **Ctrl + Alt + T**
 
    2. Sintaxe: `ls`
 
-   3. Listagens comuns:
+   3. Parâmetros comuns:
 
-      **ls -l**: Exibe as permissões de cada arquivo/pasta
+      **-l**: Exibe as permissões de cada arquivo/diretório
 
 ---
