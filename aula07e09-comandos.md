@@ -22,6 +22,10 @@ __O Bash do linux é case sensitive, ou seja, comandos, parâmetros, nomes de di
 
       _Nesse exemplo, toda vez que for digitado ls, o comando executado será ls -hl._
 
+      `alias rm='/bin/rm -I'`
+
+      _Comando executado por segurança, com o objetivo de evitar exclusões acidentais_
+
 ---
 
 * __`cat`: Pega o conteúdo de um arquivo e exibe na tela.__
@@ -51,6 +55,14 @@ __O Bash do linux é case sensitive, ou seja, comandos, parâmetros, nomes de di
 
 ---
 
+* __`cp`: Copiar arquivos__
+
+   * Argumentos comuns:
+
+      ``:
+
+---
+
 * __`--help`: Argumento que exibe a ajuda de um comando digitado antes do --help.__
 
    * Exemplos:
@@ -66,6 +78,16 @@ __O Bash do linux é case sensitive, ou seja, comandos, parâmetros, nomes de di
    * Exemplos:
 
       `!164`
+
+---
+
+ * __`less`: Semelhante ao cat, mas é um paginador, que exibe o conteúdo de um arquivo na tela e permite a execução de comandos.
+
+   * Exemplos: `less /proc/cpuinfo`
+
+   * Comandos comuns:
+
+      `q`: Sai do less.
 
 ---
 
@@ -99,6 +121,8 @@ __O Bash do linux é case sensitive, ou seja, comandos, parâmetros, nomes de di
 
    _No Mint, por padrão, o manual vem em inglês, mas pode ser traduzido através do download de pacotes externos._
 
+   _O man utiliza o less para exibir as informações._
+
    * Exemplos:
 
       `man ls`
@@ -130,6 +154,18 @@ __O Bash do linux é case sensitive, ou seja, comandos, parâmetros, nomes de di
       `-p`: Cria uma pasta e as subpastas indicadas no comando.
 
       * Ex.: `mkdir -p Dir1/Dir2/Dir3`
+
+---
+
+* __`mv`: Move ou renomeia arquivos/diretórios.__
+
+   * Exemplos:
+
+      `mv arquivo.txt /home/rpatricio-souza/Desktop/Dir`
+
+      _Para renomear o arquivo/diretório, basta mover o arquivo para o mesmo local, mas usando um nome diferente_
+
+      `mv arquivo.txt arq.txt`
 
 ---
 

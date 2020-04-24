@@ -66,6 +66,6 @@ Faz referência a uma ou mais letras.
 
       _Nas versões mais recentes do Bash, ao utilizar os colchetes, usar duas letras separadas por hífen equivale a usar duas letras juntas._
 
-         Ex.: `ls /etc/f[a-i]*` = `ls /etc/f[ai]*`
+         Ex.: ```ls /etc/f[a-i]*``` = ```ls /etc/f[ai]*```
 
 ---
