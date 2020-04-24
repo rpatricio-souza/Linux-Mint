@@ -57,9 +57,9 @@ __O Bash do linux é case sensitive, ou seja, comandos, parâmetros, nomes de di
 
 * __`cp`: Copiar arquivos__
 
-   * Argumentos comuns:
+   * Exemplos:
 
-      ``:
+      `cp arquivo.txt tmp/`
 
 ---
 
