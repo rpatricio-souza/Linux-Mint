@@ -35,6 +35,24 @@ __Os comandos no linux são externos, ou seja, são executáveis salvos em diret
 
 ---
 
+* __`--help`: Argumento que exibe a ajuda de um comando digitado antes do --help.__
+
+   * Exemplos:
+
+      `apt --help`
+
+---
+
+* __`history`: Exibe o histórico dos comandos digitados, onde cada comando tem um índice numérico.__
+   
+   `!x`: Repete o comando de número 'x' indicado pelo history.
+
+   * Exemplos:
+
+      `!164`
+
+---
+
 * __`ls`: Lista o conteúdo do diretório atual.__
    
    * Argumentos comuns:
@@ -55,6 +73,16 @@ __Os comandos no linux são externos, ou seja, são executáveis salvos em diret
 
       `-l`: Exibe as permissões de cada arquivo/diretório.
 
+
+---
+
+* __`man`: Abre o manual do comando passado como argumento após o man.
+   _O manual traz mais informações que o --help._
+   _No Mint, por padrão, o manual vem em inglês, mas pode ser traduzido através do download de pacotes externos._
+
+   * Exemplos:
+
+      `man ls`
 
 ---
 
