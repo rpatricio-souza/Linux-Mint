@@ -38,7 +38,7 @@ Faz referência a uma ou mais letras.
 
    * Exemplos.: 
       
-      `ls /etc/?{am,ul}*`: Exibe todos os arquivos/diretórios, cujo o nome possua um dos padrões, 'am' ou 'ul', a partir do 2o caratere;
+      `ls /etc/?{am,ul}*`: Exibe todos os arquivos/diretórios, cujo o nome possua um dos padrões, 'am' ou 'ul', a partir do 2o caratere.
 
 ---
 
@@ -62,6 +62,6 @@ Faz referência a uma ou mais letras.
 
       _Nas versões mais recentes do Bash, ao utilizar os colchetes, usar duas letras separadas por hífen equivale a usar duas letras juntas._
 
-         _Ex.: `ls /etc/f[a-i]*` = `ls /etc/f[ai]*`_
+         Ex.: `ls /etc/f[a-i]*` = `ls /etc/f[ai]*`
 
 ---
