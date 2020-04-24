@@ -1,10 +1,22 @@
 # Comandos Linux
 
 __Os comandos no linux são externos, ou seja, são executáveis salvos em diretórios específicos no /bin__
+__O Bash do linux é case sensitive, ou seja, comandos, parâmetros, nomes de diretórios/arquivos diferenciam letras maiúsculas de minúsculas.__
 
 ---
 
 * Abrir o terminal: **Ctrl + Alt + T**
+
+---
+
+* __`alias`: Cria um apelido/atalho para um comando.__
+   _Os alias criados ficam ativos enquanto o terminal estiver aberto._
+   _Quando o terminal for fechado, todos os alias serão perdidos, a menos que estejam fixados num arquivo de configuração do usuário._
+
+   * Exemplos: 
+
+      `alias ls="ls -hl"`
+      _Nesse exemplo, toda vez que for digitado ls, o comando executado será ls -hl._
 
 ---
 
@@ -71,8 +83,9 @@ __Os comandos no linux são externos, ou seja, são executáveis salvos em diret
 
       `-h`: _Human Readable_ melhora a legibilidade, mostrando o tamanho em KB/MB/GB...
 
-      `-l`: Exibe as permissões de cada arquivo/diretório.
+      `-l`: Exibe as permissões de cada arquivo/diretório;
 
+      `-R`: Recursivo, mostra o conteúdo de todos os subdiretórios.
 
 ---
 
@@ -93,6 +106,24 @@ __Os comandos no linux são externos, ou seja, são executáveis salvos em diret
       `mkdir Teste`
 
       `mkdir /home/rpatricio-souza/Desktop/Teste`
+
+      _Caso seja colocado um espaço no nome do diretório, o comando criará duas (ou mais) pastas:_
+
+      `mkdir Dir 1`
+
+         _Nesse caso será criado o diretório Dir e o diretório 1_
+
+      _Para criar diretórios com espaço no nome, deve ser usada a contrabarra \ antes do espaço ou colocar o nome do(s) diretório(s) entre aspas duplas:_
+
+      `mkdir Diretorio\ 1`
+
+      `mkdir "Diretorio 2"`
+
+   * Parâmetros comuns:
+
+      `-p`: Cria uma pasta e as subpastas indicadas no comando.
+
+      * Ex.: `mkdir -p Dir1/Dir2/Dir3`
 
 ---
 
@@ -116,7 +147,17 @@ __Os comandos no linux são externos, ou seja, são executáveis salvos em diret
 
 ---
 
-* __`rm`: Remove arquivos.__
+* __`rm`: Remove arquivos e diretórios.__
+
+ * Parâmetros comuns:
+
+    `-f`: Força a exclusão caso os diretórios não estejam vazios;
+
+    `-i`: Solicita confirmação da exclusão;
+
+    `-I`: Solicita confirmação da exclusão, caso haja 4 arquivos ou mais;
+
+    `-r`: Recursivo, apaga todos os arquivos/diretórios dentro do diretório atual.
 
 ---
 
