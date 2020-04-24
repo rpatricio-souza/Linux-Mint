@@ -40,6 +40,10 @@ Faz referência a uma ou mais letras.
       
       `ls /etc/?{am,ul}*`: Exibe todos os arquivos/diretórios, cujo o nome possua um dos padrões, 'am' ou 'ul', a partir do 2o caratere.
 
+      `ls /etc/*{tab,swd}`: Exibe todos os arquivos/diretórios, cujo o nome termine com os padrões 'tab' ou 'swd';
+
+      `ls /etc/*.{conf,db}`: Exibe todos os arquivos/diretórios com a extensão .conf ou .db.
+
 ---
 
 * __Colchetes [ ]__
