@@ -59,6 +59,7 @@ Faz referência a uma ou mais letras.
       `ls /etc/?[a,e,i,o,u]???`: Exibe todos os arquivos/diretórios, cuja a 2a letra do nome seja uma vogal (minúscula) e possua 5 caracteres no total;
 
       `ls /etc/?[am,ul]*`: Exibe todos os arquivos/diretórios, cuja a 2a letra do nome esteja entre 'a' e 'm', ou entre 'u' e 'l';
+
       _Nas versões mais recentes do Bash, ao utilizar os colchetes, usar duas letras separadas por hífen equivale a usar duas letras juntas._
 
          _Ex.: `ls /etc/f[a-i]*` = `ls /etc/f[ai]*`_
