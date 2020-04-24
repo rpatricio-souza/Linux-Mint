@@ -10,12 +10,15 @@ __O Bash do linux é case sensitive, ou seja, comandos, parâmetros, nomes de di
 ---
 
 * __`alias`: Cria um apelido/atalho para um comando.__
+
    _Os alias criados ficam ativos enquanto o terminal estiver aberto._
+
    _Quando o terminal for fechado, todos os alias serão perdidos, a menos que estejam fixados num arquivo de configuração do usuário._
 
    * Exemplos: 
 
       `alias ls="ls -hl"`
+
       _Nesse exemplo, toda vez que for digitado ls, o comando executado será ls -hl._
 
 ---
@@ -90,7 +93,9 @@ __O Bash do linux é case sensitive, ou seja, comandos, parâmetros, nomes de di
 ---
 
 * __`man`: Abre o manual do comando passado como argumento após o man.
+
    _O manual traz mais informações que o --help._
+   
    _No Mint, por padrão, o manual vem em inglês, mas pode ser traduzido através do download de pacotes externos._
 
    * Exemplos:
