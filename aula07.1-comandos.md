@@ -1,6 +1,7 @@
 # Comandos Linux
 
-__Os comandos no linux são externos, ou seja, são executáveis salvos em diretórios específicos no /bin__
+__Os comandos no linux são externos, ou seja, são executáveis salvos em diretórios específicos no /bin.__
+
 __O Bash do linux é case sensitive, ou seja, comandos, parâmetros, nomes de diretórios/arquivos diferenciam letras maiúsculas de minúsculas.__
 
 ---
@@ -95,7 +96,7 @@ __O Bash do linux é case sensitive, ou seja, comandos, parâmetros, nomes de di
 * __`man`: Abre o manual do comando passado como argumento após o man.
 
    _O manual traz mais informações que o --help._
-   
+
    _No Mint, por padrão, o manual vem em inglês, mas pode ser traduzido através do download de pacotes externos._
 
    * Exemplos:
