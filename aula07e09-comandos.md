@@ -81,7 +81,7 @@ __O Bash do linux é case sensitive, ou seja, comandos, parâmetros, nomes de di
 
 ---
 
- * __`less`: Semelhante ao cat, mas é um paginador, que exibe o conteúdo de um arquivo na tela e permite a execução de comandos.
+ * __`less`: Semelhante ao cat, mas é um paginador, que exibe o conteúdo de um arquivo na tela e permite a execução de comandos.__
 
    * Exemplos: `less /proc/cpuinfo`
 
@@ -115,7 +115,7 @@ __O Bash do linux é case sensitive, ou seja, comandos, parâmetros, nomes de di
 
 ---
 
-* __`man`: Abre o manual do comando passado como argumento após o man.
+* __`man`: Abre o manual do comando passado como argumento após o man.__
 
    _O manual traz mais informações que o --help._
 
